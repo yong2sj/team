@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.dxtn.pro.employ.model.EmployDAO">
+	<!-- <select id="boardList" parameterType="edto" resultType="edto">
+		SELECT A.*
+		FROM
+		(SELECT @RNUM:=@RNUM+1 AS RNUM, R.*
+		FROM (SELECT @RNUM:=0) RR, 
+			(SELECT BNO, BSUBJECT, BCONTENT, BREF, 
+				BSTEP, BLEVEL, BWRITER, BREGDATE
+			FROM BOARD
+			ORDER BY BREF DESC, BSTEP ASC) R) A
+		WHERE A.RNUM BETWEEN #{start} AND #{end}
+	</select>
+	<select id="boardListCnt" resultType="int">
+		SELECT COUNT(BNO) 
+		FROM BOARD
+	</select>
+	<insert id="boardWrite" parameterType="bdto">
+	<selectKey resultType="int" keyProperty="bno" order="BEFORE">
+	SELECT IFNULL(MAX(BNO), 0)+1 AS BNO
+	FROM BOARD
+	</selectKey>
+		INSERT INTO BOARD(BNO, BSUBJECT, BCONTENT, BWRITER, BREF, BSTEP, BLEVEL)
+		<choose>
+		<when test="bref==0">
+		VALUES (#{bno}, #{bsubject}, #{bcontent}, #{bwriter}, #{bno}, 0, 0)
+		</when>
+		<when test="bref>0">
+		VALUES (#{bno}, #{bsubject}, #{bcontent}, #{bwriter}, #{bref}, #{bstep}+1, #{blevel}+1)
+		</when>
+		</choose>
+	</insert>
+	<select id="getContent" parameterType="bdto" resultType="bdto">
+		SELECT BNO, BSUBJECT, BWRITER, BCONTENT, BREF, 
+				BSTEP, BLEVEL, BWRITER, BREGDATE
+			FROM BOARD
+			WHERE BNO = #{bno}
+	</select>
+	<delete id="boardDelete" parameterType="bdto">
+	DELETE 
+	FROM BOARD 
+	WHERE BNO = #{bno}
+	</delete>
+	<update id="boardUpdate" parameterType="bdto">
+	UPDATE BOARD SET BSUBJECT = #{bsubject}, BCONTENT = #{bcontent},
+	BWRITER = #{bwriter}
+	WHERE BNO = #{bno} 
+	</update> -->
+</mapper>
