@@ -145,3 +145,59 @@ div.timg{
     font-size: 25px;
     cursor: pointer;
   }
+  
+#services{
+	background-color: #ffffff;
+	background-image: url("/resources/img/cloud4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.service{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+  
+  .b1{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #fceaba;
+	float: left;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+	
+}
+.b2{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #9ad2e4;
+	display:inline-block;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+}
+
+.b3{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #c1e7ba;
+	float: right;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+}
+.sic{
+	font-weight: bold;
+	
+}
+.mail{
+	text-align: center;
+	font-weight:bolder; 
+	color: white;
+}
