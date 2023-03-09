@@ -1,53 +1,57 @@
-$(document).ready(function(){
-	
-	 $('#submit1').on("click", function(){
-		  var regForm = $("form[name='regForm'] .chk").length;
+$(document).ready(function() {
 
-		for(var i = 0; i<regForm; i++){
+	$('#submit1').on("click", function() {
+		var regForm = $("form[name='regForm'] .chk").length;
 
-		if($(".chk").eq(i).val() == "" || $(".chk").eq(i).val() == null){
+		for (var i = 0; i < regForm; i++) {
 
-		alert($(".chk").eq(i).attr("title")+"은 필수로 입력하세요.");
+			if ($(".chk").eq(i).val() == "" || $(".chk").eq(i).val() == null) {
 
-			$(".chk").eq(i).focus();
+				alert($(".chk").eq(i).attr("title") + "은 필수로 입력하세요.");
 
-		return true;
+				$(".chk").eq(i).focus();
+
+				return true;
 			}
 
-		 }
-		  
-	$("form[name='regForm']").submit();	 });
-	
-	
+		}
 
-	$(".pwdComp").on("click", function(e){
-					
-			if(e.target.id=='up'){
-			$("form[name='contentForm']").attr("action", "updateForm.dx");
-			$("form").submit();
-			}else if(e.target.id=='del'){
-			var curentPg = $('input[name=curentPg]').val();
-			var yn = confirm("정말 삭제할 건가요?");
-			if(yn == true){
-			 $("form[name='contentForm']").attr("action", "deleteAction.dx");
-			 $("form").submit();
-			 }
-			 else{
-				 return false;
-			 }
-			}
-			});
+		$("form[name='regForm']").submit();
+	});
 
-	$('#reply').click(function(){
-		$("form[name='contentForm']").attr("action", "boardWrite.dx");
+
+
+	$(".pwdComp").on("click", function(e) {
+		var pwd = 'admin';
+		var inpwd = prompt("비밀번호를 입력하세요 ?");
+		if (pwd == inpwd) {
+			if (e.target.id == 'up') {
+				$("form[name='contentForm']").attr("action", "employUpdatePage");
+				$("form").submit();
+			} else if (e.target.id == 'del') {
+				var curentPg = $('input[name=curentPg]').val();
+				var yn = confirm("정말 삭제할 건가요?");
+				if (yn == true) {
+					$("form[name='contentForm']").attr("action", "employDel");
+					$("form").submit();
+				}
+				else {
+					return false;
+				}
+			}	
+		}
+	});
+
+	$('#reply').click(function() {
+		$("form[name='contentForm']").attr("action", "employWrite");
 		$("form[name='contentForm']").submit();
 	});
-	
 
-	});
-function getContent(no){
+
+});
+function getContent(no) {
 	var tForm = $("form[name='tForm']")
-	$("#bno").attr('value', no);
-	tForm.attr("action","content.dx");
+	$("#eno").attr('value', no);
+	tForm.attr("action", "employCont");
 	tForm.submit();
 }

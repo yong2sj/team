@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../resources/css/style.css">
-    <link rel="stylesheet" href="../resources/font/IBMPlexSansKR-Regular.ttf">
-    <link rel="shortcut icon" href="../resources/img/icon.png" type="icon">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/font/IBMPlexSansKR-Regular.ttf">
+    <link rel="shortcut icon" href="resources/img/icon.png" type="icon">
 </head>
 <body>
     <div class="navbar-nav menubar" style="z-index:5;">
         <div class="img">
-            <a href="#"><img src="../resources/img/logo.jpeg" alt="logo"></a>
+            <a href="#"><img src="resources/img/logo.jpeg" alt="logo"></a>
         </div>
         <ul class="nav navbar-nav menu">
             <li class="active"><a href="#home">HOME</a>
@@ -38,9 +38,9 @@
    <container style="padding-top: 60px;">
         <div class="con col-12" id="home">
             <ul class="slides">
-                <li><img src="../resources/img/nav01.jpg" alt="image01" class="navImg"></li>
-                <li><img src="../resources/img/nav02.jpg" alt="image02" class="navImg"></li>
-                <li><img src="../resources/img/nav03.jpg" alt="image03" class="navImg"></li>
+                <li><img src="resources/img/nav01.jpg" alt="image01" class="navImg"></li>
+                <li><img src="resources/img/nav02.jpg" alt="image02" class="navImg"></li>
+                <li><img src="resources/img/nav03.jpg" alt="image03" class="navImg"></li>
             </ul>
             <p class="controller" style="visibility: hidden;">
                 <span class="prev">&lang;</span>
@@ -64,22 +64,22 @@
         		<h2>인재상</h2>
         		<p>능동적으로 도전적인 자세를 가진 인재</p>
         		<ul class="t_sub">
-        			<li><div class="timg"><img alt="" src="../resources/img/bus.png"/></div><div class="timg">도전</div></li>
-        			<li><div class="timg"><img alt="" src="../resources/img/bus.png"/></div><div class="timg">능동</div></li>        		
-        			<li><div class="timg"><img alt="" src="../resources/img/bus.png"/></div><div class="timg">성실</div></li>        		
+        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">도전</div></li>
+        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">능동</div></li>        		
+        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">성실</div></li>        		
         		</ul>        	
         	</div>
         	<hr style="border: 1px dotted silver;" width="98%">
         	<div>
         		<ul class="t_con">
         			<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="../resources/img/bus.png"/></div><div style="float:left">도전적인 사람</div>
+	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left">도전적인 사람</div>
 	        		</li>
 	        		<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="../resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
+	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
 	        		</li>
 	        		<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="../resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
+	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
 	        		</li>
         		</ul>        	
         	</div>
@@ -113,7 +113,7 @@
 				</tr>
 				<tr>
 					<td style="width: 10%" >
-						<img alt="" src="../resources/img/subway.png">
+						<img alt="" src="resources/img/subway.png">
 					</td>
 					<td>
 						<ul>
@@ -129,7 +129,7 @@
 				</tr>
 				<tr>
 					<td style="width: 10%">
-						<img alt="" src="../resources/img/bus.png">
+						<img alt="" src="resources/img/bus.png">
 					</td>
 					<td>
 						<ul>

@@ -13,7 +13,7 @@ public class EmployDTO {
 	private int rnum;
 	private int eno;
 	private String esub;
-	private String econt;
+	private String econ;
 	private int eref;
 	private int estep;
 	private int elevel;
@@ -21,4 +21,5 @@ public class EmployDTO {
 	private String eregdate;
 	private int start;
 	private int end;
+	private int readcount;
 }

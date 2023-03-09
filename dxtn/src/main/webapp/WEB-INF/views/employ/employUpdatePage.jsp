@@ -25,23 +25,15 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
 <script src="resources/js/employScript.js"></script>
 	<h2 style="text-align:center;">게시글쓰기</h2>
-	<form action="employWrite" name="regForm" id="regForm" method="post">
+	<form action="employUpdate" name="regForm" id="regForm" method="post">
 		<input type="hidden" name="curentPg" value="${curentPg}">
+		<input type="hidden" name="eno" value="${article.eno}">
 		<table border="1" style="margin:0 auto; width:600px;">
 		<tr>
 			<th width="200">제목</th>
-			<td width="400"><c:choose>
-				<c:when test="${dto.eno==0 }">
-					<input type="text" name="esub" title="제목" class="chk" size="40"/>
-				</c:when>
-				<c:when test="${dto.eno!=0 }">
-					<input type="text" name="esub" title="제목" class="chk" size="40" value="[답글]"/>
-					<input type="hidden" name="eno" value="${dto.eno}"/>
-					<input type="hidden" name="eref" value="${dto.eref}"/>
-					<input type="hidden" name="estep" value="${dto.estep}"/>
-					<input type="hidden" name="elevel" value="${dto.elevel}"/>
-			</c:when>
-			</c:choose></td>
+			<td width="400">
+					<input type="text" name="esub" title="제목" class="chk" size="40" value="${article.esub }"/>			
+			</td>
 		</tr>
 		<tr>
 			<th width="200">작성자</th>
@@ -49,7 +41,7 @@
 		</tr>
 		<tr>
 			<th width="200">내용</th>
-			<td width="400"> <textarea id="summernote" name="econ" class="chk"></textarea></td>
+			<td width="400"> <textarea id="summernote" name="econ" class="chk">${article.econ }</textarea></td>
 		</tr>
 		
 		<tr style="text-align:right;">

@@ -10,15 +10,20 @@ public interface EmployDAO {
 
 	List<EmployDTO> employList(EmployDTO article);
 
-	int boardListCnt();
+	int employListCnt();
 	
-	void boardWrite(EmployDTO dto);
+	int employWrite(EmployDTO dto);
 
-	EmployDTO getContent(EmployDTO dto);
+	EmployDTO employCont(EmployDTO dto);
+	
+	int readcount(EmployDTO dto);
 
-	void boardDelete(EmployDTO dto);
+	void employDelete(EmployDTO dto);
 
-	void boardUpdate(EmployDTO dto);
+	void employUpdate(EmployDTO dto);
+
+	void employDel(int eno);
+	
 
 
 }

@@ -14,7 +14,7 @@
 </head>
 <body>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="../resources/js/employScript.js"></script>
+<script src="resources/js/employScript.js"></script>
 
 	<h2 style="text-align:center;">모집공고</h2>
 	<p>
@@ -47,6 +47,7 @@
 						</td>
 						<td style="text-align:center;">${article.ewriter}</td>
 						<td style="text-align:center;">${article.eregdate}</td>
+						<td style="text-align:center;">${article.readcount}</td>
 					</tr>
 				</c:forEach>
 			</tbody>
@@ -64,8 +65,8 @@
 		</c:when>
 		</c:choose>
 		<form action="" name="tForm" method="post">
-		<input type="hidden" id="bno" name="bno" value="">
-		<input type="hidden" name="curentPg" value="${curentPg}">
+			<input type="hidden" id="eno" name="eno" value="">
+			<input type="hidden" name="curentPg" value="${curentPg}">
 		</form>
 		
 		
