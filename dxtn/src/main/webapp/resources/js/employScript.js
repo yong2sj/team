@@ -38,7 +38,9 @@ $(document).ready(function() {
 				else {
 					return false;
 				}
-			}	
+			} else if(e.target.id == 'write'){
+				location.href="employWritePage";
+			}
 		}
 	});
 
