@@ -52,10 +52,8 @@
 }
 
 #home{
-    background-color: antiquewhite;
-    height: 747px !important;
-    overflow : hidden;
     position: relative;
+    overflow: hidden;
 }
 
 #about{
@@ -148,13 +146,58 @@ div.timg{
     cursor: pointer;
   }
   
-.sns_share .layer_wrap {
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    background: #FFF;
-    padding: 10px;
-    position: absolute;
-    width: auto;
-    box-shadow: 3px 3px 20px rgb(0 0 0 / 30%);
-    right: 0;
+#services{
+	background-color: #ffffff;
+	background-image: url("/resources/img/cloud4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.service{
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+  
+  .b1{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #fceaba;
+	float: left;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+	
+}
+.b2{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #9ad2e4;
+	display:inline-block;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+}
+
+.b3{
+	
+	width: 450px;
+	height: 400px;
+	background-color: #c1e7ba;
+	float: right;
+	margin-top: 15%;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0.9;
+}
+.sic{
+	font-weight: bold;
+	
+}
+.mail{
+	text-align: center;
+	font-weight:bolder; 
+	color: white;
 }
