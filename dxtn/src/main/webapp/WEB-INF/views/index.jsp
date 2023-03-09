@@ -94,12 +94,18 @@
 			<h3>사업문의 : <a href="mailto:﻿ta@dxtn.co.kr?subject=사업 문의">ta@dxtn.co.kr</a></h3>        
 			</div>
 		</div>
+		
+		
         <div class="con col-12" id="customer">
-		<h1 style="text-align:center; font-size:6em; font:oblique;">주요 고객</h1><br/>
-				<h2 style="text-align:center; font-size:3em;">우리는 같이 성장해 나갈 것 입니다.</h2>
-				<div class="slide slide_wrap" style="margin-top:70px;" >
+        	<div style="float:left;width:20%;">
+        		<img src="../resources/img/cjtw.jpg" style="width:500px; height:766px;opacity:0.9; border-radius:10px;">
+        	</div>
+        	<div style="width:80%; float:right; padding-left:160px; padding-top:20px;">
+				<p style="text-align:center; font-size:6em; font:oblique;">주요 고객</p><br/>
+				<p style="text-align:center; font-size:3em;">우리는 같이 성장해 나갈 것 입니다.</p>
+					<div class="slide slide_wrap" style="margin-top:80px;" >
       				<div class="slide_item item1"></div>
-	      			<div class="slide_item item2"></div>
+ 		      			<div class="slide_item item2"></div>
     	  			<div class="slide_item item3"></div>
       				<div class="slide_item item4"></div>
       				<div class="slide_item item5"></div>
@@ -108,7 +114,11 @@
       				<div class="slide_next_button slide_button">▶</div>
       				<ul class="slide_pagination"></ul>
   				</div>
+  			</div>
         </div>
+        
+        
+        
         <div class="con col-12" id="interview">
         	<div>
         		<h2>인재상</h2>

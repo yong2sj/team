@@ -65,10 +65,10 @@
 }
 
 #customer{
-	padding-top:80px;
+	 
 	
-	background-image:url('/resources/img/cjtw.jpg');
-	background-size:100% 100%;
+	/* background-image:url('/resources/img/cjtw.jpg'); */
+	/* background-size:100% 100%; */
 }
 
 #map{
@@ -215,13 +215,12 @@ li {
 }
 
 .slide {
-	border-radius:3px;
+	border-radius:5px;
 	margin: 0 auto;
 	
   /* layout */
   display: flex;
   flex-wrap: nowrap;
-  /* 컨테이너의 내용물이 컨테이너 크기(width, height)를 넘어설 때 보이지 않도록 하기 위해 hidden을 준다. */
   overflow: hidden;
 
   /* position */
@@ -229,7 +228,7 @@ li {
   position: relative;
 
   /* size */
-  width: 50%;
+  width: 60%;
 
   /* slide drag를 위해 DOM요소가 드래그로 선택되는것을 방지 */
   user-select: none;
