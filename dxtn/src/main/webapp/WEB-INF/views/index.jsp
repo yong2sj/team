@@ -344,9 +344,10 @@
 			</div>
         </div>
     </container>
-    <!--<footer>
-     ㄴㅇㄹㄴㅇㄹ
-    </footer>-->
+    <footer>
+     <div>
+     </div>
+    </footer>
     <script>
         let slides = document.querySelector('.slides');
         let slideImg = document.querySelectorAll('.slides li');
