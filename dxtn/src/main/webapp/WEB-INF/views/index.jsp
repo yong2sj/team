@@ -72,7 +72,7 @@
             <ul>
                 <li style="margin-left: 500px;">
                     <img src="resources/img/about01.png" alt="SI공공사업" style="float: left;">
-                    <p style=" padding-top: 25px;">
+                    <p style=" padding-top: 25px; text-align: left">
                         <span>SI-공공사업</span><br>
                         KAMCO 차세대 채권관리 시스템 개발 <br>
                         KAMCO 차세대 채권관리 시스템 구축 <br>
@@ -92,7 +92,7 @@
                 </li>
                 <li style="margin-left: 500px;">
                     <img src="resources/img/about03.png" alt="SI일반사업" style="float: left;">
-                    <p style="padding-top: 60px;">
+                    <p style="padding-top: 60px; text-align: left;">
                         <span>SI-일반사업</span><br>
                         서린상사(주) 시스템 개발<br>
                         아이티센 그룹 업무시스템 개발 및 운영 관리

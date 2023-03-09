@@ -56,10 +56,6 @@
     overflow: hidden;
 }
 
-#about{
-    background-color: #038BCF;
-}
-
 #interview{
 	background-color: yellow;
 }
@@ -447,6 +443,7 @@ li {
 /* about css*/
 #about{
     padding-top: 150px;
+    height: 2200px;
 }
 
 #about ul{
