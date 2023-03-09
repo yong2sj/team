@@ -4,11 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-	table{
-		 border-collapse : collapse;
-	}
-</style>
+
 <meta charset="UTF-8">
 <title>게시글 쓰기</title>
    <!--  jQuery, bootstrap -->
@@ -24,41 +20,29 @@
 <body><!-- 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
 <script src="resources/js/employScript.js"></script>
-	<h2 style="text-align:center;">게시글쓰기</h2>
+	<h2 style="text-align:center; margin-top: 20px; padding-bottom: 10px;">채용공고</h2>
 	<form action="employWrite" name="regForm" id="regForm" method="post">
 		<input type="hidden" name="curentPg" value="${curentPg}">
-		<table border="1" style="margin:0 auto; width:600px;">
+		<table border="1" style="margin:0 auto; width:600px;" class="board-table">
 		<tr>
-			<th width="200">제목</th>
-			<td width="400"><c:choose>
-				<c:when test="${dto.eno==0 }">
-					<input type="text" name="esub" title="제목" class="chk" size="40"/>
-				</c:when>
-				<c:when test="${dto.eno!=0 }">
-					<input type="text" name="esub" title="제목" class="chk" size="40" value="[답글]"/>
-					<input type="hidden" name="eno" value="${dto.eno}"/>
-					<input type="hidden" name="eref" value="${dto.eref}"/>
-					<input type="hidden" name="estep" value="${dto.estep}"/>
-					<input type="hidden" name="elevel" value="${dto.elevel}"/>
-			</c:when>
-			</c:choose></td>
-		</tr>
-		<tr>
-			<th width="200">작성자</th>
-			<td width="400"><input type="text" name="ewriter" title="작성자" class="chk" size="40" value="admin" readonly/></td>
-		</tr>
-		<tr>
-			<th width="200">내용</th>
-			<td width="400"> <textarea id="summernote" name="econ" class="chk"></textarea></td>
-		</tr>
-		
-		<tr style="text-align:right;">
-			<td colspan="2">
-				<input type="button" value="글저장" id="submit1" style="color:white;border:none; border-radius: 5px;padding : 10px 15px; background-color: #5CC7F7">&nbsp;&nbsp;&nbsp;
-				<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" value="글목록" style="color:white;border:none; border-radius: 5px;padding : 10px 15px; background-color: #5CC7F7">
+			<th width="200" style="text-align: center">제목</th>
+			<td width="400">
+				<input type="text" name="esub" title="제목" class="chk form-control" size="40"/>
 			</td>
 		</tr>
+		<tr>
+			<th width="200" style="text-align: center">작성자</th>
+			<td width="400"><input type="text" name="ewriter" title="작성자" class="chk form-control mt-4 mb-2" size="40" value="admin" readonly/></td>
+		</tr>
+		<tr>
+			<th width="200" style="text-align: center">내용</th>
+			<td width="400"> <textarea id="summernote" name="econ" class="chk"></textarea></td>
+		</tr>
 		</table>
+		<div style="text-align: center; margin-top:7px;">
+			<input type="button" value="글저장" id="submit1" class="btn btn-primary">&nbsp;&nbsp;
+			<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" value="글목록" class="btn btn-second">
+		</div>
 	</form>
 <script type="text/javascript">
 $(document).ready(function () {

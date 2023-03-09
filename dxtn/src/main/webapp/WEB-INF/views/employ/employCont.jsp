@@ -30,12 +30,6 @@
 	    border-bottom: 1px #e7e7e7 solid;
 	}
 	
-	/* .board_view_header1 {
-    display: flex;
-    align-items: center !important;
-    justify-content: space-between;
-} */
-	
 	div{
 		display: block;
 	}
@@ -68,16 +62,15 @@
 	.board_view_sub{
 		margin-left: 40px;
 	}
-	
-	
-
 </style>
 <meta charset="UTF-8">
 <title>수정</title>
 </head>
-<body>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="resources/js/employScript.js"></script>
+<body>
 	<h2 style="text-align:center;">채용공고</h2>
 	<form action="" name="contentForm" id="regForm" method="post">
 		<input type="hidden" name="curentPg" value="${curentPg}">
@@ -110,8 +103,8 @@
 			<div class="content">
 				<p>${article.econ }</p>
 			</div>
-			<div style="text-align: center">	
-				<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" value="목록"/>
+			<div style="text-align: center; margin-bottom: 30px;'">	
+				<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" class="btn btn-secondary" value="목록"/>
 			</div>
 		</div>
 	</form>

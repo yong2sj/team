@@ -254,39 +254,20 @@
   			</div>
         </div>
         
-        
-        
         <div class="con col-12" id="interview">
         	<div>
-        		<h2>인재상</h2>
-        		<p>능동적으로 도전적인 자세를 가진 인재</p>
-        		<ul class="t_sub">
-        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">도전</div></li>
-        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">능동</div></li>        		
-        			<li><div class="timg"><img alt="" src="resources/img/bus.png"/></div><div class="timg">성실</div></li>        		
-        		</ul>        	
+        		<h2 class="h2_t">인재상</h2>
         	</div>
-        	<hr style="border: 1px dotted silver;" width="98%">
-        	<div>
-        		<ul class="t_con">
-        			<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left">도전적인 사람</div>
-	        		</li>
-	        		<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
-	        		</li>
-	        		<li style="clear: both;">
-	        			<div style="float:left; margin-left: 500px; margin-right: 200px;"><img alt="" src="resources/img/bus.png"/></div><div style="float:left;">도전적인 사람</div>
-	        		</li>
-        		</ul>        	
+        	<div style="margin-top:20px; text-align: center;">
+        		<img alt="" src="resources/img/인재상2.png" width="700" height="600">     	
         	</div>
-        	<hr style="border: 1px dotted silver;" width="98%">
         	<div style="text-align:center;">
-        		<input type="button" value="모집공고" onclick="window.open('employ','모집공고')">
+        		<input type="button" value="모집공고" class="btn btn-primary" onclick="window.open('employ','모집공고')">
         	</div>
         </div>
+        
         <div class="con col-12" id="map">
-        	<h2>찾아오는길</h2>
+        	<h2 class="h2_t">찾아오는길</h2>
         	<div id="daumRoughmapContainer1678086472122" class="root_daum_roughmap root_daum_roughmap_landing" style="z-index: 1"></div>
 			<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 				<script charset="UTF-8">
@@ -298,7 +279,7 @@
 					}).render();
 				</script>
 			<div style="text-align:center; margin-top:27px; padding-right:150px;">
-				<div style="font-size: 18px;">&#124; 서울특별시 서대문구 서소문로21, 충정타워 6층 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#124; 대표번호 : 02-0000-0000</div>
+				<div style="font-size: 18px;">&#124; 서울특별시 서대문구 서소문로21, 충정타워 6층 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#124; 대표번호 : 02-2088-0433</div>
 			</div>
 			<div id="ride">
 			<table style="margin-top:10px; width:800px;">
@@ -314,8 +295,8 @@
 					</td>
 					<td>
 						<ul>
-							<li>5호선 9번출구</li>								
 							<li>2호선 2번출구</li>								
+							<li>5호선 9번출구</li>								
 						</ul>
 					</td>
 				</tr>
@@ -330,8 +311,8 @@
 					</td>
 					<td>
 						<ul>
-							<li>7017</li>
-							<li>7017</li>
+							<li>일반 : 7017, 7013A, 7013B, 7011</li>
+							<li>간선 : 172, 370, 472, 600, 602</li>
 						</ul>
 					</td>
 				</tr>
