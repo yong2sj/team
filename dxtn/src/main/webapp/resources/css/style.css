@@ -209,6 +209,97 @@ div.timg{
 	color: white;
 }
 
+#vision{
+	height:1300px;
+	background-color: #f1f1f1;
+	width: 80%;
+	margin: 0 auto;
+}
+	#back{
+		width:100%; 
+		margin:0 auto; 
+		padding-top: 100px;
+        height: 500px; 
+        position: relative;}
+    #back::before{
+        content: "";
+        background: url("/resources/img/img_vision.jpg");
+        background-size: cover;
+        opacity: 0.5;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    #back h2{
+    text-align: center;
+    position: relative;
+    font-size: 3.0em;
+    }
+    #back ul{
+    padding-left: 10%;
+    text-align: left; 
+    position: relative;}
+    
+    #java{
+		width:100%; 
+		margin:0 auto;
+		height:300px; 
+		position: relative;
+     }
+     #java h2{
+    text-align: center;
+    position: relative;
+     font-size: 3.0em;
+    }
+      #java ul{
+    list-style:none;
+    margin:0;
+    padding-left:9%;
+    position: relative;
+    }
+    #java ul li{
+    margin: 20px 20px 0px 20px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+    position: relative;
+    }
+   	.text{
+   	text-align: center;
+   	font-size: 1.2em;
+   	}
+   	#solution{
+		width:100%;
+		padding-top:0px; 
+		margin:0 auto;
+		height:200px; 
+		position: relative;
+     }
+     #solution h2{
+    text-align: center;
+    position: relative;
+     font-size: 3.0em;
+    }
+      #solution ul{
+    list-style:none;
+    margin:0;
+    padding-left:4%;
+    position: relative;
+    }
+    #solution ul li{
+    margin: 20px 20px 0px 20px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+    position: relative;
+    }
+   	.text{
+   	text-align: center;
+   	font-size: 1.2em;
+   	}
+------비전끝
 /* ------------------------------------------------ customer css처리  start ------------------------------------------------ */
 li {
   list-style-type: none;
