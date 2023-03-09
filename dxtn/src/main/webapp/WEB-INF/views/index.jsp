@@ -95,7 +95,19 @@
 			</div>
 		</div>
         <div class="con col-12" id="customer">
-
+		<h1 style="text-align:center; font-size:6em; font:oblique;">주요 고객</h1><br/>
+				<h2 style="text-align:center; font-size:3em;">우리는 같이 성장해 나갈 것 입니다.</h2>
+				<div class="slide slide_wrap" style="margin-top:70px;" >
+      				<div class="slide_item item1"></div>
+	      			<div class="slide_item item2"></div>
+    	  			<div class="slide_item item3"></div>
+      				<div class="slide_item item4"></div>
+      				<div class="slide_item item5"></div>
+      				<div class="slide_item item6"></div>
+    		  		<div class="slide_prev_button slide_button">◀</div>
+      				<div class="slide_next_button slide_button">▶</div>
+      				<ul class="slide_pagination"></ul>
+  				</div>
         </div>
         <div class="con col-12" id="interview">
         	<div>
@@ -271,5 +283,6 @@
             move(currentIdx);
         });
     </script>
+    <script src="../resources/js/slide.js"></script>
 </body>
 </html>
