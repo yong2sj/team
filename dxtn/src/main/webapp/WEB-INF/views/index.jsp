@@ -111,7 +111,84 @@
             </ul>
         </div>
         <div class="con col-12" id="vision">
-
+        <div id="back">
+				<h2 align="center" style="font-size: 3.0em">기업비전</h2>
+				<ul style="list-style:none;">
+					<li>
+						<img alt="" src="resources/img/human.png">
+						<span style="font-size: 2em;">인재를 위하는 기업</span>
+					</li>
+					<li><img alt="" src="resources/img/human_growth.png">
+						<span style="font-size: 2em;">인재와 함께 성장하는 기업</span>
+					</li>
+					<li><img alt="" src="resources/img/growth.png">
+					<span style="font-size: 2em;">3년(2025년) 이내 SI 및 솔루션 전문 기업, 클라우드 MSP로 성장</span></li>
+				</ul>
+			</div>
+			<div id="java">
+				<h2 align="center" style="font-size: 3.0em">자바 SI & 클라우드</h2>
+				<ul style="list-style:none;">
+					<li>
+						<img height="100" alt="" src="resources/img/employment.png">
+						<p class="text">채용</p>
+					</li>
+					<li>
+						<img height="100" alt="" src="resources/img/arrow.png">
+					</li>
+					<li><img height="100" alt="" src="resources/img/ojt.png">
+						<p class="text">OJT</p>
+					</li>
+					<li>
+						<img height="100" alt="" src="resources/img/arrow.png">
+					</li>
+					<li><img height="100" alt="" src="resources/img/growth.png">
+						<p class="text">육성</p>
+					</li>
+					<li>
+						<img height="100" alt="" src="resources/img/plus.png">
+					</li>
+					<li>
+						<img height="100" alt="" src="resources/img/cooperation.png">
+						<p class="text">대기업과의 협업</p>
+					</li>
+				</ul>
+			</div>
+			<br>
+			<div id="solution">
+				<h2 align="center" style="font-size: 3.0em">솔루션</h2>
+				<ul style="list-style:none;">
+					<li>
+						<img width="80" alt="" src="resources/img/employment.png">
+						<p class="text">채용</p>
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/arrow.png">
+					</li>
+					<li><img width="80" alt="" src="resources/img/ojt.png">
+						<p class="text">교육</p>
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/plus.png">
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/cooperation.png">
+						<p class="text">협력사와 OJT</p>
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/arrow.png">
+					</li>
+					<li><img width="80" alt="" src="resources/img/growth.png">
+						<p class="text">육성</p>
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/plus.png">
+					</li>
+					<li>
+						<img width="80" alt="" src="resources/img/cooperation.png">
+						<p class="text">협업</p>
+					</li>
+				</ul>
+			</div>
         </div>
         <div class="con col-12" id="services">
 			<div class = "center">
@@ -154,12 +231,18 @@
 			<h3>사업문의 : <a href="mailto:﻿ta@dxtn.co.kr?subject=사업 문의">ta@dxtn.co.kr</a></h3>        
 			</div>
 		</div>
+		
+		
         <div class="con col-12" id="customer">
-		<h1 style="text-align:center; font-size:6em; font:oblique;">주요 고객</h1><br/>
-				<h2 style="text-align:center; font-size:3em;">우리는 같이 성장해 나갈 것 입니다.</h2>
-				<div class="slide slide_wrap" style="margin-top:70px;" >
+        	<div style="float:left;width:20%;">
+        		<img src="../resources/img/cjtw.jpg" style="width:500px; height:766px;opacity:0.9; border-radius:10px;">
+        	</div>
+        	<div style="width:80%; float:right; padding-left:160px; padding-top:20px;">
+				<p style="text-align:center; font-size:6em; font:oblique;">주요 고객</p><br/>
+				<p style="text-align:center; font-size:3em;">우리는 같이 성장해 나갈 것 입니다.</p>
+					<div class="slide slide_wrap" style="margin-top:80px;" >
       				<div class="slide_item item1"></div>
-	      			<div class="slide_item item2"></div>
+ 		      			<div class="slide_item item2"></div>
     	  			<div class="slide_item item3"></div>
       				<div class="slide_item item4"></div>
       				<div class="slide_item item5"></div>
@@ -168,7 +251,11 @@
       				<div class="slide_next_button slide_button">▶</div>
       				<ul class="slide_pagination"></ul>
   				</div>
+  			</div>
         </div>
+        
+        
+        
         <div class="con col-12" id="interview">
         	<div>
         		<h2>인재상</h2>
