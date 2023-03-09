@@ -30,12 +30,6 @@
 	    border-bottom: 1px #e7e7e7 solid;
 	}
 	
-	/* .board_view_header1 {
-    display: flex;
-    align-items: center !important;
-    justify-content: space-between;
-} */
-	
 	div{
 		display: block;
 	}
@@ -68,9 +62,6 @@
 	.board_view_sub{
 		margin-left: 40px;
 	}
-	
-	
-
 </style>
 <meta charset="UTF-8">
 <title>수정</title>

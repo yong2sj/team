@@ -60,9 +60,9 @@
     background-color: #038BCF;
 }
 
-#interview{
+/* #interview{
 	background-color: yellow;
-}
+} */
 
 #customer{
 	padding-top:80px;
@@ -70,15 +70,20 @@
 	background-image:url('/resources/img/cjtw.jpg');
 	background-size:100% 100%;
 }
-
+/* map */
 #map{
 	background-color: #fafafa;
 	height: 1000px;
 }
 
+#interview{
+	background-color: #fafafa;
+	height: 800px;
+}
+
 #daumRoughmapContainer1678086472122{
 	margin:0 auto;
-	padding-top: 5px;
+	padding-top: 10px;
 }
 
 #ride{
@@ -91,7 +96,7 @@
 	border-radius: 5px;
 }
 
-h2{
+.h2_t{
 	text-align: center;
 	padding-top: 50px;
 }
@@ -101,28 +106,6 @@ p{
 	padding-top: 30px;
 }
 
-.t_sub li{
-	display: inline-block;
-	margin-top: 15px;
-}
-
-.t_con li{
-	margin-top: 15px;
-
-}
-ul.t_sub{
-	text-align: center;
-}
-
-ul.t_con{
-	text-align: center;
-}
-
-div.timg{
-	margin-right: 40px;
-	margin-left: 40px;
-	
-}
 
 /* home */
 #home img{
