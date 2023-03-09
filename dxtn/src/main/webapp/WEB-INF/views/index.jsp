@@ -265,7 +265,6 @@
         		<input type="button" value="모집공고" class="btn btn-primary" onclick="window.open('employ','모집공고')">
         	</div>
         </div>
-        
         <div class="con col-12" id="map">
         	<h2 class="h2_t">찾아오는길</h2>
         	<div id="daumRoughmapContainer1678086472122" class="root_daum_roughmap root_daum_roughmap_landing" style="z-index: 1"></div>
