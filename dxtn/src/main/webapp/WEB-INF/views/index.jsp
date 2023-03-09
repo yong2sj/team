@@ -38,9 +38,9 @@
    <container style="padding-top: 60px;">
         <div class="con col-12" id="home">
             <ul class="slides">
-                <li><img src="resources/img/nav01.jpg" alt="image01" class="navImg"></li>
-                <li><img src="resources/img/nav02.jpg" alt="image02" class="navImg"></li>
-                <li><img src="resources/img/nav03.jpg" alt="image03" class="navImg"></li>
+                <li><img src="resources/img/main1.jpg" alt="image01" class="navImg"></li>
+                <li><img src="resources/img/main2.jpg" alt="image02" class="navImg"></li>
+                <li><img src="resources/img/main3.jpg" alt="image03" class="navImg"></li>
             </ul>
             <p class="controller" style="visibility: hidden;">
                 <span class="prev">&lang;</span>
