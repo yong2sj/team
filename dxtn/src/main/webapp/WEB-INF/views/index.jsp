@@ -259,7 +259,7 @@
         		<h2 class="h2_t">인재상</h2>
         	</div>
         	<div style="margin-top:20px; text-align: center;">
-        		<img alt="" src="resources/img/인재상2.png" width="700" height="600">     	
+        		<img alt="" src="resources/img/talent.png" width="700" height="600">     	
         	</div>
         	<div style="text-align:center;">
         		<input type="button" value="모집공고" class="btn btn-primary" onclick="window.open('employ','모집공고')">
