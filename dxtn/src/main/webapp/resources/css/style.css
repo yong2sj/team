@@ -352,27 +352,27 @@ li {
 
 /* 각 슬라이드가 변경되는 것을 시각적으로 확인하기 쉽도록 각 슬라이드별 색상 적용 */
 .slide_item.item1 {
-	background-image:url('../img/lg히다찌로고.jpg');
+	background-image:url('/resources/img/lg.jpg');
 	background-size:100% 100%;
 }
 .slide_item.item2 {
-  background-image:url('../img/쌍용로고.gif');
+  background-image:url('/resources/img/ssang.gif');
   background-size:100% 100%
 }
 .slide_item.item3 {
-  background-image:url('../img/아이티센로고.png');
+  background-image:url('/resources/img/itcen.png');
   background-size:100% 100%
 }
 .slide_item.item4 {
-  background-image:url('../img/클로잇로고.jpg');
+  background-image:url('/resources/img/cloit.jpg');
   background-size:100% 100%
 }
 .slide_item.item5 {
-  background-image:url('../img/베스핀글로벌로고.jpg');
+  background-image:url('/resources/img/baspin.jpg');
   background-size:100% 100%
 }
 .slide_item.item6 {
-  background-image:url('../img/서린상사로고.jpeg');
+  background-image:url('/resources/img/seorin.jpeg');
   background-size:100% 100%
 }
 
@@ -451,7 +451,7 @@ li {
 .company hr{
     width: 50px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 50px;
     border: 1px solid rgb(194, 194, 194);
 }

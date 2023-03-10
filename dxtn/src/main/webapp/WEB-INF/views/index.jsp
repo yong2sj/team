@@ -259,7 +259,7 @@
         		<h2 class="h2_t">인재상</h2>
         	</div>
         	<div style="margin-top:20px; text-align: center;">
-        		<img alt="" src="resources/img/인재상2.png" width="700" height="600">     	
+        		<img alt="" src="resources/img/talent.png" width="700" height="600">     	
         	</div>
         	<div style="text-align:center;">
         		<input type="button" value="모집공고" class="btn btn-primary" onclick="window.open('employ','모집공고')">
@@ -333,7 +333,7 @@
                 <li>주소 : 서울특별시 서대문구 서소문로 21(충정타워빌딩) 603호</li>
                 <li>전화번호 : 02-2088-0433</li>
                 <li>팩스 : 070-8220-0433</li>
-                <li>사업자등록번호 : 366-81-02488</li>
+                <li style="margin-left : 10px">사업자등록번호 : 366-81-02488</li>
             </ul>
             <p>사업문의 : ta@dxtn.co.kr | 인재채용 : admin@dxtn.co.kr</p>
         </div> 
