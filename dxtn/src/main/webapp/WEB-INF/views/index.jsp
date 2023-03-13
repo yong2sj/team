@@ -38,9 +38,9 @@
    <container style="padding-top: 60px;">
         <div class="con col-12" id="home">
             <ul class="slides">
-                <li><img src="resources/img/nav01.jpg" alt="image01" class="navImg"></li>
-                <li><img src="resources/img/nav02.jpg" alt="image02" class="navImg"></li>
-                <li><img src="resources/img/nav03.jpg" alt="image03" class="navImg"></li>
+                <li><img src="resources/img/main1.jpg" alt="image01" class="navImg"></li>
+                <li><img src="resources/img/main2.jpg" alt="image02" class="navImg"></li>
+                <li><img src="resources/img/main3.jpg" alt="image03" class="navImg"></li>
             </ul>
             <p class="controller" style="visibility: hidden;">
                 <span class="prev">&lang;</span>
@@ -259,7 +259,7 @@
         		<h2 class="h2_t">인재상</h2>
         	</div>
         	<div style="margin-top:20px; text-align: center;">
-        		<img alt="" src="resources/img/인재상2.png" width="700" height="600">     	
+        		<img alt="" src="resources/img/talent.png" width="700" height="600">     	
         	</div>
         	<div style="text-align:center;">
         		<input type="button" value="모집공고" class="btn btn-primary" onclick="window.open('employ','모집공고')">
@@ -329,8 +329,18 @@
         	</div>
     </container>
     <footer>
-     <div>
-     </div>
+        <div class="info">
+            <img src="resources/img/logo2.png" alt="로고">
+            <ul>
+                <li>회사명 : (주)디엑스티앤</li>
+                <li>대표자 : 최종구</li>
+                <li>주소 : 서울특별시 서대문구 서소문로 21(충정타워빌딩) 603호</li>
+                <li>전화번호 : 02-2088-0433</li>
+                <li>팩스 : 070-8220-0433</li>
+                <li style="margin-left : 10px">사업자등록번호 : 366-81-02488</li>
+            </ul>
+            <p>사업문의 : ta@dxtn.co.kr | 인재채용 : admin@dxtn.co.kr</p>
+        </div> 
     </footer>
     <script>
         let slides = document.querySelector('.slides');
