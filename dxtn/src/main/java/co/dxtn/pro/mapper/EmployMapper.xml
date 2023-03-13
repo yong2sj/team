@@ -20,9 +20,9 @@
 	<insert id="employWrite" parameterType="edto">
 		<selectKey resultType="int" keyProperty="eno" order="BEFORE">
 		SELECT IFNULL(MAX(ENO), 0)+1 AS ENO
-		FROM employ
+		FROM EMPLOY
 		</selectKey>
-			INSERT INTO employ(ENO, ESUB, ECON, EWRITER, EREF, ESTEP, ELEVEL)
+			INSERT INTO EMPLOY(ENO, ESUB, ECON, EWRITER, EREF, ESTEP, ELEVEL)
 			<choose>
 				<when test="eref==0">
 					VALUES (#{eno}, #{esub}, #{econ}, #{ewriter}, #{eno}, 0, 0)
@@ -39,7 +39,7 @@
 			WHERE ENO = #{eno}
 	</select>
 	<update id="readcount">
-		update employ set readcount = readcount + 1 where eno = #{eno}
+		update EMPLOY set readcount = readcount + 1 where eno = #{eno}
 	</update>
 	<delete id="employDel" parameterType="edto">
 		DELETE 
