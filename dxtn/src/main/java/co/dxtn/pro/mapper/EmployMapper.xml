@@ -39,7 +39,7 @@
 			WHERE ENO = #{eno}
 	</select>
 	<update id="readcount">
-		update employ set readcount = readcount + 1 where eno = #{eno}
+		UPDATE EMPLOY SET READCOUNT = READCOUNT + 1 WHERE ENO = #{eno}
 	</update>
 	<delete id="employDel" parameterType="edto">
 		DELETE 

@@ -324,6 +324,9 @@
 			</table>
 			</div>
         </div>
+		<div style="text-align:center;">
+        		<input type="button" value="chat" class="btn btn-primary" onclick="window.open('/chat','채팅방')">
+        	</div>
     </container>
     <footer>
      <div>
@@ -412,6 +415,6 @@
             move(currentIdx);
         });
     </script>
-    <script src="../resources/js/slide.js"></script>
+    <script src="resources/js/slide.js"></script>
 </body>
 </html>

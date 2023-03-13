@@ -8,9 +8,9 @@
 <meta charset="UTF-8">
 <title>모집공고</title>
 </head>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="resources/js/employScript.js"></script>
 <body>
 	<h2 style="text-align:center; padding-top:20px; margin-bottom:10px;">채용공고</h2>
