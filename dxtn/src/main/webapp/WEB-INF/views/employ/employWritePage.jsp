@@ -40,8 +40,8 @@
 		</tr>
 		</table>
 		<div style="text-align: center; margin-top:7px;">
-			<input type="button" value="글저장" id="submit1" class="btn btn-primary">&nbsp;&nbsp;
-			<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" value="글목록" class="btn btn-second">
+			<input type="button" value="작성" id="submit1" class="btn btn-primary">&nbsp;&nbsp;
+			<input type="button" onclick="location.href='employ?curentPg=${curentPg}'" value="목록" class="btn btn-second">
 		</div>
 	</form>
 <script type="text/javascript">
