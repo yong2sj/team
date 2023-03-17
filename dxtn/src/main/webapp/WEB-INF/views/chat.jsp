@@ -28,6 +28,7 @@
 			width: 500px;
 			height: 500px;
 			overflow: auto;
+			word-wrap: break-word;
 		}
 		.chating p{
 			color: #fff;
@@ -45,7 +46,8 @@
 
 <script type="text/javascript">
 	var ws;
-
+	
+	window.onload = wsOpen();
 	function wsOpen(){
 		ws = new WebSocket("ws://" + location.host + "/chating");
 		wsEvt();
@@ -66,6 +68,7 @@
 		document.addEventListener("keypress", function(e){
 			if(e.keyCode == 13){ //enter press
 				send();
+				prepareScroll();
 			}
 		});
 	}
@@ -87,7 +90,19 @@
 		var msg = $("#chatting").val();
 		ws.send(uN+" : "+msg);
 		$('#chatting').val("");
+		scrollUl();
+		
 	}
+	
+	function prepareScroll() {
+		  window.setTimeout(scrollUl, 50);
+		}
+	
+	function scrollUl() {
+		 
+		  let chatUl = document.querySelector('#chating');
+		  chatUl.scrollTop = chatUl.scrollHeight; // 스크롤의 위치를 최하단으로
+		}
 </script>
 <body>
 	<div id="container" class="container">
