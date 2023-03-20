@@ -12,5 +12,5 @@ public class HomeController {
 		System.out.println("===== Main Page =====");
 		return "views/index";
 	}
-
+	
 }

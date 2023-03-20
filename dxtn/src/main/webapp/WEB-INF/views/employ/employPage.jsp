@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ include file="../header.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +14,7 @@
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 <script src="resources/js/employScript.js"></script>
 <body>
-	<h2 style="text-align:center; padding-top:20px; margin-bottom:10px;">채용공고</h2>
+	<h2 style="text-align:center; padding-top: 90px; margin-top: 0px;">채용공고</h2>
 	<p>
 	<table style="margin:0 auto; width:900px;">
 		<tr>
@@ -50,7 +51,7 @@
 						<td style="text-align:center;" >
 							<a href="javascript:getContent(${article.eno });" style="text-decoration: none; color: black; font-weight : 600">${article.esub}</a>
 						</td>
-						<td style="text-align:center;">${article.ewriter}</td>
+						<td style="text-align:center;">admin</td>
 						<td style="text-align:center;">${article.eregdate}</td>
 						<td style="text-align:center;">${article.readcount}</td>
 					</tr>
@@ -74,4 +75,7 @@
 			<input type="hidden" name="curentPg" value="${curentPg}">
 		</form>
 </body>
+<footer>
+<%@ include file="../footer.jsp" %>
+</footer>
 </html>

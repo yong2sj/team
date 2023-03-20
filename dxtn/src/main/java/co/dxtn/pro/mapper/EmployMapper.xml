@@ -7,10 +7,8 @@
 		FROM
 		(SELECT @RNUM:=@RNUM+1 AS RNUM, R.*
 		FROM (SELECT @RNUM:=0) RR, 
-			(SELECT ENO, ESUB, ECON, EREF, 
-				ESTEP, ELEVEL, EWRITER, EREGDATE, READCOUNT
-			FROM EMPLOY
-			ORDER BY EREF DESC, ESTEP ASC) R) A
+			(SELECT ENO, ESUB, ECON, EREGDATE, READCOUNT
+			FROM EMPLOY) R) A
 		WHERE A.RNUM BETWEEN #{start} AND #{end}
 	</select>
 	<select id="employListCnt" resultType="int">
@@ -22,19 +20,11 @@
 		SELECT IFNULL(MAX(ENO), 0)+1 AS ENO
 		FROM EMPLOY
 		</selectKey>
-			INSERT INTO EMPLOY(ENO, ESUB, ECON, EWRITER, EREF, ESTEP, ELEVEL)
-			<choose>
-				<when test="eref==0">
-					VALUES (#{eno}, #{esub}, #{econ}, #{ewriter}, #{eno}, 0, 0)
-				</when>
-				<when test="eref>0">
-					VALUES (#{eno}, #{esub}, #{econ}, #{ewriter}, #{eref}, #{estep}+1, #{elevel}+1)
-				</when>
-			</choose>
+			INSERT INTO EMPLOY(ENO, ESUB, ECON)
+					VALUES (#{eno}, #{esub}, #{econ})
 	</insert>
 	<select id="employCont" parameterType="edto" resultType="edto">
-		SELECT ENO, ESUB, EWRITER, ECON, EREF, 
-				ESTEP, ELEVEL, EWRITER, EREGDATE
+		SELECT ENO, ESUB, ECON, EREGDATE, READCOUNT
 			FROM EMPLOY
 			WHERE ENO = #{eno}
 	</select>
